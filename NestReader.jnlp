@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="NestReader.jnlp">
+  <information>
+    <title>Nest Reader</title>
+    <vendor>ScratchNest Pvt. Ltd.</vendor>
+    <description>Software to read tags using ScratchNest RFID readers.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="NestReader.jar" size="3256987" download="eager" />
+    <jar href="sample\AnimateFX-1.2.1.jar" size="94267" download="eager" />
+    <jar href="sample\jfoenix-8.0.8-retrolambda.jar" size="2722326" download="eager" />
+    <jar href="sample\jssc.jar" size="153562" download="eager" />
+    <jar href="sample\ltkjava-1.0.0.6.jar" size="2450900" download="eager" />
+    <jar href="sample\ltkthingmagic.jar" size="2694608" download="eager" />
+    <jar href="sample\mercuryapi.jar" size="594442" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="1920" height="1080" main-class="sample.Main"  name="Nest Reader" />
+  <update check="background"/>
+</jnlp>
